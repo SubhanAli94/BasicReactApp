@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SubhanAli94/BasicReactApp.git/static/css/main.c742e980.css",
+    "main.js": "/SubhanAli94/BasicReactApp.git/static/js/main.89f78a9a.js",
+    "static/js/453.64512fd7.chunk.js": "/SubhanAli94/BasicReactApp.git/static/js/453.64512fd7.chunk.js",
+    "index.html": "/SubhanAli94/BasicReactApp.git/index.html",
+    "main.c742e980.css.map": "/SubhanAli94/BasicReactApp.git/static/css/main.c742e980.css.map",
+    "main.89f78a9a.js.map": "/SubhanAli94/BasicReactApp.git/static/js/main.89f78a9a.js.map",
+    "453.64512fd7.chunk.js.map": "/SubhanAli94/BasicReactApp.git/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c742e980.css",
+    "static/js/main.89f78a9a.js"
+  ]
+}
