@@ -1,12 +1,20 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// Mock Header and LoginForm components
+jest.mock('./Header', () => () => <div data-testid="header">Mock Header</div>);
+jest.mock('./LoginForm', () => () => <div data-testid="login-form">Mock LoginForm</div>);
+
+test('renders Header and LoginForm components in App', () => {
+  // Render the App component
   render(<App />);
   
-  // Update the query to match the text more flexibly
-  const linkElement = screen.getByText(/learn react/i);
-  
-  // Assert that the element is in the document
-  expect(linkElement).toBeInTheDocument();
+  // Assert that Header component is rendered
+  const headerElement = screen.getByTestId('header');
+  expect(headerElement).toBeInTheDocument();
+
+  // Assert that LoginForm component is rendered
+  const loginFormElement = screen.getByTestId('login-form');
+  expect(loginFormElement).toBeInTheDocument();
 });
